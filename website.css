@@ -1,19 +1,19 @@
-
 body {
-  background-color: rgb(77, 97, 110);
-}
+  background-color: rgb(35, 78, 112);
+	font-family: "Montserrat", sans-serif;
+} 
 .sidebar {
   position: fixed;
   background-color: rgb(35, 78, 112);
-  color: rgb(251, 248, 190);
-  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
   border-bottom-style: solid;
-  border-width: 3px;
-  border-bottom-color: rgb(35, 78, 112);
+  border-width: thick;
+  border-color: rgb(91, 169, 214);
   left: 0;
   top: 0;
   width: 300px;
-  height: 200px;
+  height: 197px;
   font-size: 40px;
   z-index: 999;
 }
@@ -26,11 +26,11 @@ body {
   z-index: 999;
 }
 a:link {
-  color: rgb(251, 248, 190);
+  color: rgb(252, 252, 252);
   text-align: center;
 }
 a:visited {
-  color: rgb(251, 248, 190);
+  color: rgb(255, 255, 255);
 }
 a:hover {
   color: rgba(252, 252, 252, 0.767);
@@ -46,14 +46,35 @@ a:hover {
 .home-header {
   display: flex;
   flex-direction: column;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   margin-top: 0;
   padding-top: 0;
-  border: solid;
-  border-color: rgb(251, 248, 190);
-  border-bottom-color: rgb(35, 78, 112);
-  border-radius: 10px;
-  background-color:rgb(251, 248, 190);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-bottom-color: rgb(91, 169, 214);
+  border-left-color: rgb(91, 169, 214);
+  border-bottom-width: thick;
+  border-left-width: thick;
+  border-radius: 0px;
+  background-color:rgb(255, 255, 255);
+  color: rgb(35, 78, 112); 
+   align-items: center;
+  justify-content: center;
+}
+.home-header1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 21px;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-bottom-color: rgb(91, 169, 214);
+  border-left-color: rgb(91, 169, 214);
+  border-bottom-width: thick;
+  border-left-width: thick;
+  border-radius: 0px;
+  background-color:rgb(255, 255, 255);
   color: rgb(35, 78, 112); 
    align-items: center;
   justify-content: center;
@@ -79,7 +100,7 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 25px;
-  background-color: rgb(251, 248, 190);
+  background-color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(35, 78, 112);
   border-radius: 5px;
@@ -110,7 +131,7 @@ a:hover {
 }
 .box {
   background-color: rgb(35, 78, 112);
-  color: rgb(251, 248, 190);
+  color: rgb(255, 255, 255);
   height: 200px;
   border-radius: 10px;
   font-size: 150%;
